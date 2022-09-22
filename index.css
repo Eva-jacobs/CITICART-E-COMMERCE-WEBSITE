@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+P {
+  font-size: 16px;
+}
+body {
+  line-height: 1.6;
+  margin: 0;
+}
+.navbarlogo {
+  margin-left: 120px;
+  position: relative;
+  top: 46px;
+  padding-right: 195px;
+  font-weight: bolder; 
+}
+nav {
+  background-color: #f9f2ef;
+  overflow: hidden;
+  width: 100%;
+  height: 260px;
+  padding-left: 24px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0 0 0 250px;
+  list-style-type: none;
+  overflow: hidden;
+}
+nav li {
+  float: left;
+  margin-right: 20px;
+  font-weight: bold;
+}
+nav a:hover {
+  transition: 0.5s;
+  color: #7b92a7;
+  text-decoration: underline;
+}
+a,
+.dropbtn {
+  display: block;
+  color: #4d4e4f;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 5px;
+  width: 100px;
+}
+
+.dropdown-content:hover {
+  background-color: #fafffe;
+  width: 50px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba (0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.signup-btn {
+  background-color: #ff440a;
+  border-radius: 10px;
+  width: 114px;
+  height: 56px;
+  font-weight: bolder;
+}
+.link {
+  color: #fafffe;
+}
+.signup-btn:hover {
+  background-color: #aa2d07;
+}
+.link:hover {
+  color: #fafffe;
+}
+.dropdown {
+  padding-bottom: 63px;
+}
+section {
+  background-color: #aa2d07;
+  height: 1234px;
+}
+.landingpage-text {
+  padding: 168px 702px 16px 199px;
+  color: #fafffe;
+  line-height: auto;
+}
+.CTA-btn {
+  margin-top: 24px;
+  border-radius: 10px;
+  background-color: #fafffe;
+  border: 1px solid #ff440a;
+}
+.landing-page-img {
+  display: block;
+  float: right;
+  position: relative;
+  bottom: 350px;
+  right: 125px;
+}
+.CTA {
+  color: #ff440a;
+  font-weight: bolder;
+  height: 56px;
+  width: 181px;
+  font-size: 20px;
+  padding: 16px 9px 16px 9px;
+}
+.CTA-btn a:hover {
+  color: #aa2d07;
+  border-color: #aa2d07;
+}
+.icons {
+  color: #fafffe;
+  display: flex;
+justify-content: space-between;
+  padding-top: 349px;
+  padding-bottom: 254px;
+  margin-right: 199px;
+  margin-left: 199px;
+}
+ .icons li{list-style-type: none; }
+ .icons li a{color:#fafffe;}
