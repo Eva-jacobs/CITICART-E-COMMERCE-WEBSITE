@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  P {
+    font-size: 16px;
+  }
+  body {
+    line-height: 1.6;
+    margin: 0;  
+  }
+  nav {
+    background-color: #f9f2ef;
+    overflow: hidden;
+    width: 100%;
+    height: 260px;
+    padding-left: 24px;
+  }
+  ::placeholder {
+    color: #e7e7e7;
+    font-size: 24px;
+  }
+  .input {
+    width: 400px;
+    height: 62px;
+    border: 1px solid #5c5d5f;
+    border-radius: 10px;
+    margin-top: 24px;
+    padding-left: 92px;
+    position: relative;
+    right: 40px;
+  }
+  .input-1 {
+    width: 556px;
+    height: 68px;
+    border: 1px solid #dedfdf;
+    border-radius: 35px;
+    margin-top: 24px;
+    padding-left: 92px;
+    position: relative;
+    right: 40px;
+  }
+  .fa-regular {
+    z-index: 2;
+    position: relative;
+    float: left;
+    top: 30px;
+    left: 36px;
+    font-size: 50px;
+    color: #e7e7e7;
+  }
+  .fa-magnifying-glass {
+    z-index: 2;
+    position: relative;
+    left: 496px;
+    top: 14px;
+    font-size: 50px;
+    color: #e7e7e7;
+  }
+  nav ul {
+    padding: 0;
+    margin: 0 0 0 250px;
+    list-style-type: none;
+    overflow: hidden;
+  }
+  nav li {
+    float: left;
+    margin-right: 20px;
+    font-weight: bold;
+  }
+  nav a:hover {
+    transition: 0.5s;
+    color: #7b92a7;
+    text-decoration: underline;
+  }
+  a,
+  .dropbtn {
+    display: block;
+    color: #4d4e4f;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 5px;
+    width: 100px;
+  }
+  
+  .dropdown-content:hover {
+    background-color: #fafffe;
+    width: 50px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba (0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown {
+    padding-bottom: 63px;
+  }
+  .nav-1 {
+    margin-left: 120px;
+    border-bottom: solid 1px;
+    padding-top: 53px;
+    width: 1200px;
+  }  
+  h2{text-align:center;padding-top:27px;}
+  .icons {
+    color: #fafffe;
+    display: flex;
+  justify-content: space-between;
+    padding-top: 56px;
+  
+    margin-right: 199px;
+    margin-left: 148px;
+  }
+  .icon{margin-right:77px;margin-bottom:110px;padding-top:56px;}
+   .icons li{list-style-type: none;}
+   .icons li a{color:#fafffe;}
+  .fa-user-group{font-size:80px;color:#fafffe;margin-right:24px;}
+  .fa-solid{font-size:80px;color:#fafffe;margin-right:24px;}
+  section{background-color:#aa2d07;width:1196px;height:998px;margin-left:120px;margin-top:32px;}
+  .text{color:#fafffe;float:right;padding-top:140px;margin-right:140px;}
+  .laptop-1{margin-left:136px;background-color:#f9f2ef;height:154px;width:216px;}
+  .line{text-decoration:line-through;text-decoration-color:#aa2d07;}
+  .container{ display:inline-flex;flex-direction: row;padding-top:48px;margin-bottom:56px;height:356px;}
+  .shoe{margin-left:96px;background-color:#f9f2ef;height:154px;width:216px;}
+  .airpod{margin-left:96px;background-color:#f9f2ef;height:154px;width:216px;}
+  .infinix{margin-left:96px;background-color:#f9f2ef;height:154px;width:216px;}
+  article {
+    padding-top: 80px;
+    margin-left: 120px;
+  }
+  .article-1 {
+    display: flex;
+    flex-direction: row;
+  }
+  .category-1 {
+    display: flex;
+    flex-direction: row;
+  }
+  .category-text {
+    display: inline-block;
+    white-space: nowrap;
+    margin-right: 12px;
+    margin-left: 12px;
+    padding-top: 12px;
+  }
+  .games {
+    background-color: #f9f9fa;
+    width: 216px;
+    height: 154px;
+    margin-left: 120px;
+    margin-top: 47px;
+  }
+  .category-2 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 32px;
+  }
+  
+  .categories {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 120px;
+    padding-top: 43px;
+  }
+  .laptop {
+    background-color: #f9f2ef;
+    width: 216px;
+    height: 154px;
+    margin-left: 120px;
+    margin-top: 47px;
+  }
+  .phones {
+    background-color: #e7f3fe;
+    width: 216px;
+    height: 154px;
+    margin-left: 120px;
+    margin-top: 47px;
+  }
+  .male-fashion {
+    background-color: #f9f9fa;
+    width: 216px;
+    height: 154px;
+    margin-left: 120px;
+    margin-top: 47px;
+  }
+  .female-fashion {
+    background-color: #fff1ef;
+    width: 216px;
+    height: 154px;
+    margin-left: 120px;
+    margin-top: 47px;
+  }
+  .smart-watch {
+    background-color: #f9f2ef;
+    width: 216px;
+    height: 154px;
+    margin-left: 120px;
+    margin-top: 47px;
+  }
+  .digital-camera {
+    background-color: #e7f3fe;
+    width: 216px;
+    height: 154px;
+    margin-left: 120px;
+    margin-top: 47px;
+  }
+  .beauty-picks {
+    background-color: #f9f9fa;
+    width: 216px;
+    height: 154px;
+    margin-left: 120px;
+    margin-top: 47px;
+  }
+  .utensils {
+    background-color: #fff1ef;
+    width: 216px;
+    height: 154px;
+    margin-left: 120px;
+    margin-top: 47px;
+  }
+  .personal-care {
+    background-color: #f9f9fa;
+    width: 216px;
+    height: 154px;
+    margin-left: 120px;
+    margin-top: 47px;
+  }
+  .signup-btn {
+    background-color: #ff440a;
+    border-radius: 10px;
+    width: 233px;
+    height: 56px;
+    font-weight: bolder;
+    margin-left: 500px;
+    margin-top: 80px;
+  }
+  .signup-btn:hover {
+    background-color: #aa2d07;
+  }
+  .link {
+    color: #fafffe;
+    display: inline;
+  }
+  .footer-column1 {
+    background-color: #f9f2ef;
+    height: 395px;
+    margin-top: 48px;
+    border-top: #ff440a 1px solid;
+    display: flex;
+    flex-direction: row;
+  }
+  .footer-column1 li {
+    list-style-type: none;
+    margin-top: 56px;
+    margin-left: 122px;
+  }
+  
+  .col-2 li {
+    padding: left 4px;
+  }
+  .col-3 li {
+    padding: left 64px;
+  }
+  
+  .footer-2 {
+    background-color: #595451;
+    color: #fafffe;
+    height: 90px;
+    padding-top: 16px;
+    padding-left: 654px;
+  }
+  .footer-links {
+    background-color: #4d4e4f;
+    height: 480px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 66px;
+    padding-left: 272px;
+  }
+  .footer-links li a:hover {
+    text-decoration: underline;
+    color: #7b92a7;
+  }
+  .footer-column2 li a {
+    color: #fafffe;
+    display: inline;
+  }
+  .footer-image {
+    margin-top: 24px;
+  }
+  .footer-column2 li {
+    list-style-type: none;
+  }
+  .footer-column3 li a {
+    color: #fafffe;
+    display: inline;
+    padding-left: 112px;
+  }
+  .footer-column3 li {
+    list-style-type: none;
+  }
+  .footer-column4 li a {
+    color: #fafffe;
+    display: inline;
+    padding-left: 112px;
+  }
+  .footer-column4 li {
+    list-style-type: none;
+  }
+  .fa-brands {
+    color: #fafffe;
+  }
+  
+  .fa-solid {
+    color: #fafffe;
+    position: relative;
+    right: 4px;
+  }
+  
+  .footer-icon li a {
+    color: #fafffe;
+    display: inline;
+    padding-left: 112px;
+  }
+  
