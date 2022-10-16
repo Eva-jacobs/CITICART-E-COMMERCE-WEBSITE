@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+    background-color: #FFFDFF;
+    /* width:100%;   */
+
+}
+
+ header {
+      /* width:100%; */
+background-color:rgb(249,242,239);
+height: 260px;
+} 
+
+  .a img {
+    margin-top:70px;
+    margin-left: 120px;
+    position: absolute;
+}
+
+.b >input {
+    border: 1px solid rgba(222, 223, 223, 1);
+    border-radius:35px;
+    background-color:rgb(249,242,239);
+    width:556px;
+    height:68px;
+    margin-left:360px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+::placeholder {
+    color:rgba(222, 223, 223, 1);
+    text-align: centre;
+    font-size: 20px;
+    text-align:center;
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+}
+ 
+.c img {
+    position: absolute;
+    width:68px;
+    height:68px;
+    /* z-index: -1; */
+    top:52px;
+    margin-left:860px;
+}
+
+
+ .d img{
+    position: absolute;
+     width:42px;
+    height:42px;
+    z-index:1;
+    top: 65px;
+    margin-left:872px;
+} 
+
+.e ul {
+    position:absolute;
+    top: 37px;
+    margin-left: 1000px;
+    display: inline-block;
+}
+
+.e ul svg {
+    padding-right: 50px;
+}
+
+hr {
+    width:1235px;
+    margin-top: 30px;
+    margin-left:120px;
+    height:4px;
+}
+
+.f svg {
+    position:absolute;
+    margin-left: 120px;
+    top: 197px;
+    
+}
+
+.g svg {
+   position: absolute;
+   margin-left:200px;
+   top: 199px;
+}
+
+.h ul li {
+    list-style: none;
+    display:inline-block;
+    padding-right: 35px;
+}
+
+.h ul {
+    margin-left:430px;
+    margin-top: 42px;
+}
+
+.h ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color:rgb(118,117,117);
+    font-family: Arial, Helvetica, sans-serif;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+.ha {
+    position: absolute;
+    color:orange;
+}
+
+.h ul li a .hi {
+    color:rgb(255,68,10);
+}
+
+.i svg {
+    position:absolute;
+    top:197px;
+    left:1190px;
+}
+
+.i p {
+    color:rgb(77,78,79);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    position: absolute;
+    top:175px;
+    margin-left: 1230px;
+}
