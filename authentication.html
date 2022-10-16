@@ -5,24 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial scale=1.0" />
     <title>CITICART E-COMMERCE WEB APPLICATION</title>
-    <link rel="stylesheet" href="home page css.css" />
+    <link rel="stylesheet" href="authentication.css" />
     <script
       src="https://kit.fontawesome.com/c7343bc6bc.js"
       crossorigin="anonymous"
     ></script>
-    <link
-      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
-      rel="stylesheet"
-    />
   </head>
   <body>
     <nav>
       <div class="nav-1">
         <i class="fa-solid fa-magnifying-glass"></i>
         <input type="text" class="input-1" placeholder="Search Products" />
-     
+
         <li><a href="g" class="dropbtn">Account</a></li>
-    <li><a href="g" class="dropbtn">Wishlist</a></li>
+        <li><a href="g" class="dropbtn">Wishlist</a></li>
         <li><a href="g" class="dropbtn">Cart</a></li>
         <div class="navbarlogo">
           <a href="g"
@@ -37,7 +33,11 @@
       <ul>
         <li>
           <a href="g" class="dropbtn"
-            ><i class="fa-solid fa-bars" style="margin-right:32px;color:#121313;font-size:32px;"></i>All Categories</a
+            ><i
+              class="fa-solid fa-bars"
+              style="margin-right: 32px; color: #121313; font-size: 32px"
+            ></i
+            >All Categories</a
           >
         </li>
         <li class="dropdown"><a href="g" class="active">Home</a></li>
@@ -54,72 +54,115 @@
         <li class="dropdown"><a href="g" class="dropbtn">About Us</a></li>
         <li class="dropdown"><a href="g" class="dropbtn">Sign Up</a></li>
         <li class="dropdown"><a href="g" class="dropbtn">Contact Us</a></li>
-        <li class="dropdown"><a href="g" class="dropbtn">Notifications</a></li>
+        <li class="dropdown">
+          <a href="g" class="dropbtn"
+            ><i class="fa-solid fa-bell"></i>Notifications</a
+          >
+        </li>
       </ul>
     </nav>
-    <section>
-      <div class="hero-image">
-        <img src="clothes.jpg" alt="hero-image" width="1203" height="640" />
+    <main>
+      <div class="login-header">
+      <h2>Welcome Back Dora</h2>
+        <p style="padding-top:16px;">Please log in to your account</p>
       </div>
+      <div class="form">
+      <div class="log-in-form"> 
+      <form action="success page.html">
+        
+        <h3>LOG IN</h3>
+        
+        <label>Email Address</label><br>
+        <input type="email" name="email" class="email" required><br><br><br>
+        <label>Password</label><br>
+       <input type="password" name="pwd" class="pwd" maxlength="8" minlength="5" required>
+       
+        <p style="padding-top: 56px">
+          Remember me
+         
+     <span style="margin-left: 148px;color:#ff440a;">Forgot password?</span>
+        </p>
+        <a class="fb" href="g"><button type="submit" name="btn" class="login-btn">LOG IN</button></a>
+  <a class="fb" href="g"><button type="submit" name="fb-btn" class="fb-btn"> LOG IN WITH FACEBOOK</button></a>
+      </form>
+    </div>
+    <form action="success page.html">
+      <h3>CREATE ACCOUNT</h3>
+      <label>Username</label><br>
+      <input type="text" name="username" class="username" required><br><br><br>
+      <label>Email Address</label><br>
+     <input type="email" name="email" class="email" required><br><br><br>
+     <label>Password</label><br>
+    <input type="password" name="pwd" class="pwd" maxlength="8" minlength="5" required><br><br><br>
+    
+     <label>Confirm Password</label><br>
+    <input type="password" name="pwd" class="pwd" maxlength="8" minlength="5" required>
+     
+    <a class="fb" href="g"><button type="submit" name="btn" class="login-btn">LOG IN</button></a>
+  <a class="fb" href="g"><button type="submit" name="fb-btn" class="fb-btn"> LOG IN WITH FACEBOOK</button></a>
+    </form>
+  </div>
+    </main>
+      </section>
       <div class="categories-section">
         <p class="categories">Explore Popular Categories</p>
 <div class="category-1">
         <div class="games">
           <p class="category-text">
-            <span style="margin-left:20px;">Gaming Accessories</span>
+            <span style="margin-left:12px;">Gaming Accessories</span>
           </p>
           <image class="game-image">
-            <img src="Gaming accessory.png" width="177px" height="99px" style="padding-left:20px;margin-top:20px;"/>
+            <img src="Gaming accessory.png" width="177px" height="99px" style="position: relative; top: 18px;left:2px;"/>
           </image>
         </div>
 
         <div class="laptop" style="margin-left:32px;">
           <p class="category-text">
-            <span style="margin-left:20px;">Computers & Laptops</span>
+            <span style="margin-left:8px;">Computers & Laptops</span>
           </p>
           <image class="game-image">
-            <img src="laptop1.png" width="177px" height="99px" style="padding-left:20px;margin-top:20px;"/>
+            <img src="laptop1.png" width="177px" height="99px" style="position: relative; top: 18px;left:2px;"/>
           </image>
         </div>
 
         <div class="phones" style="margin-left:32px;">
           <p class="category-text">
-            <span style="margin-left: 41px">Smart Phones</span>
+            <span style="margin-left:24px">Smart Phones</span>
           </p>
           <image class="game-image">
             <img
               src="iphone.png"
               width="177px"
               height="175px"
-              style="position: relative; bottom: 20px;left:20px;"
+              style="position: relative; bottom: 26px;left:2px;"
             />
           </image>
         </div>
 
         <div class="male-fashion" style="margin-left:32px;">
           <p class="category-text">
-            <span style="margin-left: 46px">Male Fashion </span>
+            <span style="margin-left: 18px">Male Fashion </span>
           </p>
           <image class="game-image">
             <img
               src="male accessories.png"
-              width="156px" 
+              width="177px" 
               height="106px"
-              style="margin-left: 20px;margin-top:16px;"
+              style="position: relative; top: 16px;left:2px;"
             />
           </image>
         </div>
         <div class="female-fashion" style="margin-left:32px;">
           <p class="category-text">
-            <span style="margin-left: 29px">Female Fashion </span>
+            <span style="margin-left:8px">Female Fashion </span>
           </p>
        
           <image class="game-image">
             <img
               src="female accessories.png"
-              width="114px"
-              height="114px"
-              style="margin-left: 46px;margin-top:5px;"
+              width="177px"
+              height="100px"
+              style="position: relative; top:8px;left:8px;"
             />
           </image>
         </div>
@@ -127,31 +170,31 @@
       <div class="category-2" >
       <div class="smart-watch">
         <p class="category-text">
-          <span style="margin-left: 35px">Smart Watches </span>
+          <span style="margin-left:24px">Smart Watches </span>
         </p>
         <image class="game-image">
-          <img src="smart watches.png" width="174px" height="99px" style="margin-left: 21px;margin-top:16px;"/>
+          <img src="smart watches.png" width="170px" height="99px"   style="position:relative;top:8px;left:4px;"/>
         </image>
       </div>
       <div class="digital-camera" style="margin-left:32px;">
         <p class="category-text">
-          <span style="margin-left: 38px">Digital Camera</span>
+          <span style="margin-left: 32px">Digital Camera</span>
         </p>
         <image class="game-image">
-          <img src="camera.png" width="177px" height="116px" style="margin-left: 20px;margin-top:8px;"/>
+          <img src="camera.png" width="177px" height="116px"  style="position:relative;top:6px;left:4px;"/>
         </image>
       </div>
       <div class="beauty-picks" style="margin-left:32px;">
         <p class="category-text">
-          <span style="margin-left: 47px">Beauty Picks</span>
+          <span style="margin-left: 32px">Beauty Picks</span>
         </p>
         <image class="game-image">
-          <img src="makeup.png" width="177px" height="99px" style="margin-left: 20px;margin-top:8px;" />
+          <img src="makeup.png" width="177px" height="99px" style="position:relative;top:16px;left:4px;" />
         </image>
       </div>
       <div class="utensils" style="margin-left:32px;">
         <p class="category-text">
-          <span style="margin-left: 63px">Utensils</span>
+          <span style="margin-left: 48px">Utensils</span>
         </p>
         <image class="game-image">
           <img src="utensils.png" width="176px" height="119px" style="margin-left: 16px;margin-top:8px;"/>
@@ -159,10 +202,10 @@
       </div>
       <div class="personal-care" style="margin-left:32px;">
         <p class="category-text">
-          <span style="margin-left: 41px">Personal Care</span>
+          <span style="margin-left:28px">Personal Care</span>
         </p>
         <image class="game-image">
-          <img src="toiletries.png" width="156px" height="106px" style="margin-left: 30px;margin-top:12px;"/>
+          <img src="toiletries.png" width="156px" height="106px" style="margin-left: 16px;margin-top:8px;"/>
         </image>
       </div>
     </div>
@@ -170,77 +213,8 @@
         <a class="link" href="g">SHOP ITEMS NOW</a>
       </button>
     </section>
-
-    <div class="discount-offer">
-      <div class="discount">
-        <p style="font-size: 32px; text-align: center; padding-top: 36px">
-          UP TO 50% OFF ON <br />
-          ALL SMART WATCH
-        </p>
-        <button type="submit" class="cta-btn">
-          <a class="cta-links" href="g">CLICK HERE</a>
-        </button>
-      </div>
     </div>
-    <div class="article-1">
-    <article>
-      <p
-        style="
-          color: #aa2d07;
-          margin-left: 127px;
-          font-weight: bolder;
-          font-size: 32px;
-        "
-      >
-        SUMMER SALES!!!
-      </p>
-      <div class="summer">
-        <p style="padding-top: 43px; margin-left: 16px">
-          Get up to 50% discount <br /><br />
-          MALE & FEMALE FASHION<br /><br />
-          Shop your favorite summer outfit<br />
-          for as low as $10. Ensure to use the <br />
-          discount code<span style="color: #aa2d07"> SUMFF </span>hurry now
-          <br />
-          and place your order.
-        </p>
-        <div class="section-image">
-          <img src="shopping bag.jpg" width="236px" height="256px" />
-        </div>
-        <button type="submit" class="visit-btn">
-          <a class="visit-links" href="g">VISIT STORE</a>
-        </button>
-      </div>
-    </article>
-    <article style="position:relative;right:48px;">
-      <p
-        style="
-          color: #aa2d07;
-          margin-left: 127px;
-          font-weight: bolder;
-          font-size: 32px;
-        "
-      >
-        CLEARANCE SALES!!!
-      </p>
-      <div class="summer2">
-        <p style="padding-top: 43px; margin-left: 16px">
-          Get up to 50% discount <br /><br />
-          BEAUTY PICKS<br /><br />
-          Buy any item from the beauty picks <br />
-          category for as low as $2. Ensure to <br />
-          apply the discount code<span style="color: #aa2d07"> CL22 </span
-          >during <br />payment <br />
-        </p>
-        <div class="section-image">
-          <img src="makeup.jpg" width="236px" height="256px" />
-        </div>
-        <button type="submit" class="visit-btn">
-          <a class="visit-links" href="g">SHOP NOW</a>
-        </button>
-      </div>
-    </article>
-  </div>
+    </main>
     <footer>
       <ul class="footer-column1">
         <list class="col-1">
@@ -283,6 +257,7 @@
           </image>
         </list>
       </ul>
+      
     </footer>
     <div class="footer-2">
       <a href="g"><i class="fa-solid fa-caret-up"></i></a>
@@ -320,5 +295,6 @@
       </ul>
     </footer>
 
+  
   </body>
 </html>
