@@ -138,11 +138,14 @@ hr {
   top: 175px;
   margin-left: 1230px;
 }
-
+main {
+  margin-left: 120px;
+}
 .main-box {
   background-color: #aa2d07;
   width: 1200px;
   height: 720px;
+  border-radius: 10px;
 }
 .form {
   margin-left: 38px;
@@ -165,9 +168,38 @@ input {
   border-radius: 10px;
 }
 .btn {
-  background-color: white;
+  background-color: #fafffe;
   color: #ff440a;
   height: 56px;
   width: 181px;
-  border-radius: 10px;border:1px solid  #ff440a; font-size:20px;font-weight:bold;margin-top:24px;
+  border-radius: 10px;
+  border: 1px solid #ff440a;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 24px;
 }
+.contact {
+  background-color: #aa2d07;
+  color: #fafffe;
+  height: 469px;
+  width: 1200px;
+  border-radius: 10px;
+  margin-top: 172px;
+}
+.text-2 {
+  margin-left: 38px;
+  margin-top: 16px;
+}
+.info {
+  background-color: #fafffe;
+  color: #4d4e4f;
+  height: 458px;
+  width: 534px;
+  float: right;
+  position: relative;
+  bottom: 280px;
+  right: 64px; border-radius:10px;border:1px solid #4d4e4f;
+}
+ .span{margin-left:48px;}
+ h5{margin-left:48px;font-weight:bolder;}
+ 
